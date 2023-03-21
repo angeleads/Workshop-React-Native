@@ -13,9 +13,6 @@ Without further ado, let's get started with the installations!
 
 ## Installations
 
-<details>
-  <summary>Ubuntu</summary>
-
   First make sure you have npm installed using ```node -v```, if it's not installed already, follow this!
 
   <details>
@@ -42,63 +39,6 @@ Without further ado, let's get started with the installations!
   ```
   sudo npm install --global
   ```
-
-  Now create a new expo project
-  ```
-  npx workshop-weather-app --template
-  ```
-
-  Enter your project ```cd workshop-weather-app```, and then run the expo server
-  ```
-  expo start
-  ```
-
-  Now you probably have a QR code generated, all you need to do is:
-
-  - Install the Expo Go app on your phone
-
-  - Set up your account
-
-  - Open your camera app
-
-  - Scan the QR code and open it
-
-  Now you're all set to get started with the project!!!
-
-  </details>
-
-  <details>
-  <summary>MacOS</summary>
-
-  First make sure you have npm installed using ```node -v```, if it's not installed already, follow this!
-
-  <details>
-    <summary>NodeJS</summary>
-
-
-  1- To get this version, you can use the apt package manager. Refresh your local package index first:
-  ```
-  sudo apt update
-  ```
-  2- Then install Node.js:
-  ```
-  sudo apt install nodejs
-  ```
-  3- Check that the install was successful by querying node for its version number, make sure you at least have the ```v16.10.0```
-  ```
-  node -v
-  ```
-  </details>
-
-  If it's already installed, make sure you at least have the ```v16.10.0```
-
-  Let's now start by installing expo! 
-  ```
-  sudo npm install --global
-  ```
-
-  Then follow these steps to sign in to the expo client [here](https://docs.expo.dev/get-started/installation/)
-
 
   Now create a new expo project
   ```
