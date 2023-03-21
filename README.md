@@ -9,15 +9,16 @@ For that, we will be creating a weather app with the [openweatherapi](https://op
 
 Without further ado, let's get started with the installations!
 
-## Installation
+## Installations
 
 <details>
   <summary>Ubuntu:</summary>
 
+  First make sure you have npm installed using ```node -v```, if it's not installed already, follow this!
+
   <details>
     <summary>NodeJS</summary>
 
-  First make sure you have npm installed using ```node -v```, if it's installed already, follow this!
 
   1- To get this version, you can use the apt package manager. Refresh your local package index first:
   ```
@@ -33,6 +34,8 @@ Without further ado, let's get started with the installations!
   ```
   </details>
 
+  If it's already installed, make sure you at least have the ```v16.10.0```
+
   Let's now start by installing expo! 
   ```
   sudo npm install --global
@@ -40,10 +43,10 @@ Without further ado, let's get started with the installations!
 
   Now create a new expo project
   ```
-  npx weather-app --template
+  npx workshop-weather-app --template
   ```
 
-  Enter your project ```cd weather-app```, and then run the expo server
+  Enter your project ```cd workshop-weather-app```, and then run the expo server
   ```
   expo start
   ```
@@ -64,10 +67,30 @@ Without further ado, let's get started with the installations!
 
 ## Activities
 
-<details>
-  <summary>Activity 1</summary>
-    We're going to use the [openweatherapi](https://openweathermap.org/api) API, so sign up to the website and copy your generated key [here](https://home.openweathermap.org/api_keys) 
+### Activity 1
 
-    Let's create a new folder called src, and inside it, create a new file called ```api.js```
-    And now try to use the API to fetch the weather data.
-<details>
+We're going to use the [openweatherapi](https://openweathermap.org/api) API, so sign up to the website and copy your generated key [here](https://home.openweathermap.org/api_keys) 
+
+Now, let's create a new folder called src, and inside it, create a new file called ```api.js```
+
+And now try to use the API to fetch the weather data with a function named ```fetchWeatherData```, that takes a city as a parameter and returns the weather data for that city.
+
+### Activity 2
+
+Now that we can have fetch through our api, we will create a new file called ```WeatherInfo.js``` that will display each information that you want to display from the API. 
+
+Make sure to check the app on your phone and that it displays the content you're looking for!
+
+### Activity 3
+
+Now create a search bar component, that will allow the user to search for a city and display the weather data for that city.
+
+For that, create a search bar an a button, and when the user presses the button, it should display the weather data for the city that the user entered.
+
+You can use the onPress event, you can call the ```fetchWeatherData``` function and display the data.
+
+### Activity 4
+
+Now that you have an app, fully functional, you can style using any UI Component library you want, or you can use the default ones that expo provides.
+
+</details>
