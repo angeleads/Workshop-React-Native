@@ -30,11 +30,33 @@ node -v
 ```
 </details>
 
-Let's first start installing expo! 
-
-1 - Install the command line tools:
+Let's now start by installing expo! 
 ```
 sudo npm install --global
 ```
 
+Now create a new expo project
+```
+npx weather-app --template
+```
+
+Enter your project ```cd weather-app```, and then run the expo server
+```
+expo start
+```
+
+Now you probably have a QR code generated, all you need to do is:
+- Install the Expo Go app on your phone
+- Set up your account
+- Open your camera app
+- Scan the QR code and open it
+
+Now you're all set to get started with the project!!!
+
 </details>
+## Activity
+
+We're going to use the [openweatherapi](https://openweathermap.org/api) API, so sign up to the website and copy your generated key [here](https://home.openweathermap.org/api_keys) 
+
+Let's create a new folder called src, and inside it, create a new file called ```api.js```
+And now try to use the API to fetch the weather data.
