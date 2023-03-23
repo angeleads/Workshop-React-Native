@@ -152,7 +152,7 @@ You can use the onPress event, and call the ```fetchWeatherData``` function and 
   </details>
 
   <details>
-    <summary>Activity 3</summary>
+    <summary>Activity 4</summary>
 
 Now that you have an app, fully functional, you can style using any UI Component library you want, or you can use the default ones that expo provides.
 
