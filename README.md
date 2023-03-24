@@ -11,7 +11,8 @@ For that, we will be creating a weather app with the [openweatherapi](https://op
 
 Without further ado, let's get started with the installations!
 
-## Installations
+  <details>
+    <summary>Installation</summary>
 
   First make sure you have npm installed using ```node -v```, if it's not installed already, follow this!
 
@@ -70,6 +71,7 @@ Without further ado, let's get started with the installations!
   Now you're all set to get started with the project!!!
 
   </details>
+</details>
 
 ## Activities
 
