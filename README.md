@@ -45,9 +45,9 @@ Without further ado, let's get started with the installations!
   sudo npm install -g expo-cli
   ```
 
-  Now create a new expo project
+  Now create a new expo project named ```workshop-weather-app```
   ```
-  npx workshop-weather-app --template
+  expo init workshop-weather-app
   ```
 
   Enter your project ```cd workshop-weather-app```, and then run the expo server
@@ -81,7 +81,6 @@ We're going to use the [openweatherapi](https://openweathermap.org/api) API, so 
 This is the API we're going to use: 
 ```
 "https://api.openweathermap.org/data/2.5/weather?q={City name}&appid={API key}"
-
 ```
 
 Now, let's create a new folder called src, and inside it, create a new file called ```WeatherFetch.js```
