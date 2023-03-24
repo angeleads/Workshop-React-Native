@@ -8,17 +8,27 @@ This workshop is an introduction to React Native using [expo](https://docs.expo.
 
 For that, we will be creating a weather app with the [openweatherapi](https://openweathermap.org/api), which is a provider of highly recognisable weather products that make working with the weather data a way easier. 
 
+Skills you will acquire:
+
+- Introduction to React Native
+- Introduction to expo
+- How to use openweathermap API
+- Integrating openweathermap with react native expo
+- Search Weather Data of different cities using react native expo
+- Component management
+- Get information like, sunrise time, sunset time, humidity, windspeed, pressure of any city in the world using react native expo and openweathermap
+- Amazing Weather App With decent UI using react native
 
 Without further ado, let's get started with the installations!
 
-  <details>
-    <summary>Installation</summary>
+## Installations
 
-  First make sure you have npm installed using ```node -v```, if it's not installed already, follow this!
+  For this project you will only need to install NodeJs and expo if you don't have them already!
 
   <details>
     <summary>NodeJS</summary>
 
+  First make sure you have npm installed using ```node -v```, if it's not installed already, follow this!
 
   1- To get this version, you can use the apt package manager. Refresh your local package index first:
   ```
@@ -38,6 +48,9 @@ Without further ado, let's get started with the installations!
   ```
 
   </details>
+
+  <details>
+    <summary>Expo</summary>
 
   If it's already installed, make sure you at least have the ```v16.10.0```
 
@@ -69,6 +82,8 @@ Without further ado, let's get started with the installations!
   - Scan the QR code and open it
 
   Now you're all set to get started with the project!!!
+  
+  </details>
 
   </details>
 </details>
@@ -96,6 +111,7 @@ This is what the main function will look like:
 API_KEY = 'your api key'
 
 const WeatherFetch = () => {
+  
   const fetchWeatherData = async (cityName) => {
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=metric`);
     //your code here
@@ -120,6 +136,7 @@ This is what the code will look like:
 
 ```
 const WeatherInfo = ({ weatherData }) => {
+
     const { 
         name,
         visibility,
