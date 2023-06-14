@@ -3,21 +3,21 @@
 Hello everyone and welcome :)
 
 
-This workshop is an introduction to React Native using [expo](https://docs.expo.dev/) where we will learning how to fetch data from and an API and displaying its content! (I know, exciting).
+This workshop is an introduction to React Native using [expo](https://docs.expo.dev/) where we will be learning how to fetch data from and an API and displaying its content! (I know... exciting).
 
 
 For that, we will be creating a weather app with the [openweatherapi](https://openweathermap.org/api), which is a provider of highly recognisable weather products that make working with the weather data a way easier. 
 
 Skills you will acquire:
 
-- Introduction to React Native
-- Introduction to expo
-- How to use openweathermap API
-- Integrating openweathermap with react native expo
-- Search Weather Data of different cities using react native expo
-- Component management
-- Get information like, sunrise time, sunset time, humidity, windspeed, pressure of any city in the world using react native expo and openweathermap
-- Amazing Weather App With decent UI using react native
+- Introduction to React Native.
+- Introduction to expo.
+- How to use openweathermap API.
+- Integrating openweathermap with react native expo.
+- Search Weather Data of different cities using react native expo.
+- Component management.
+- Get information like, sunrise time, sunset time, humidity, windspeed, pressure of any city in the world using react native expo and openweathermap.
+- Amazing Weather App With decent UI using react native.
 
 Without further ado, let's get started with the installations!
 
